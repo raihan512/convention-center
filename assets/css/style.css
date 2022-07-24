@@ -1,0 +1,67 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap');
+
+/* Common */
+* {
+    margin: 0;
+}
+
+:root {
+    --Primary-text-color: #231D4F;
+    --secondary-text-color: #3e3e33;
+    --tertiary-text-color: #3e3e33;
+    --text-white: #FFFFFF;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Hedaer Part Start */
+.navbar-brand {
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--secondary-text-color);
+}
+
+.nav-link {
+    color: var(--secondary-text-color);
+    font-size: 16px;
+
+    font-weight: 500;
+}
+
+.navbar-toggler {
+    border: 0;
+}
+
+/* Banner part start */
+.banner {}
+
+.banner-image {
+    position: relative;
+}
+
+.banner-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translatex(-50%);
+    max-width: 35%;
+}
+
+.banner-text h1 {
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.banner-text p {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.banner .btn {
+    font-weight: 700;
+    font-size: 16px;
+}
